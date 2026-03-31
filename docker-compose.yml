@@ -1,10 +1,10 @@
 services:
-  insulation-com-au:
+  insulation:
     build: .
-    container_name: insulation-com-au
+    container_name: insulation
     restart: unless-stopped
     expose:
-      - "80"
+      - '80'
     # Uncomment the next two lines to also publish to the host for local testing:
     # ports:
     #   - "8090:80"
